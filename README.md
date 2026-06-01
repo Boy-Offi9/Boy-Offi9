@@ -11,7 +11,6 @@
     <a href="#about"><strong>About</strong></a> •
     <a href="#toolbox"><strong>Tech Stack</strong></a> •
     <a href="#stats"><strong>Stats</strong></a> •
-    <a href="#projects"><strong>Featured Work</strong></a>
   </p>
 </div>
 
@@ -22,16 +21,16 @@
 I'm a full-stack developer and reverse engineer passionate about understanding how systems work. My journey combines curiosity with practical problem-solving—whether I'm building APIs, modding Android systems, or diving deep into system architecture.
 
 **What drives me:**
-- 🔍 Understanding the "why" behind every system
-- 🛠️ Transforming ideas into functional code
-- 🔄 Continuous learning and experimentation
-- 🚀 Creating tools that solve real problems
+-  Understanding the "why" behind every system
+-  Transforming ideas into functional code
+-  Continuous learning and experimentation
+-  Creating tools that solve real problems
 
 > *Breaking things to understand them. Building things to improve them.*
 
 ---
 
-## <a id="toolbox">🛠️ Tech Stack</a>
+## <a id="toolbox"> Tech Stack</a>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=js,nodejs,kotlin,java,go,python,html,css,mysql,git,github,linux,vscode,androidstudio" alt="Tech Stack"/>
@@ -63,18 +62,8 @@ I'm a full-stack developer and reverse engineer passionate about understanding h
 
 ---
 
-## <a id="projects">💼 Featured Projects</a>
 
-*Explore my repositories for in-depth projects in:*
-- 🤖 **Automation & Bots** - Script-based automation solutions
-- 📱 **Android Modding** - Custom ROMs and system modifications
-- 🌐 **Web Development** - Full-stack applications
-- 🔧 **API Development** - RESTful services and integrations
-- 🧪 **Experimental Projects** - R&D and proof of concepts
-
----
-
-## <a id="stats">📊 GitHub Stats</a>
+## <a id="stats">GitHub Stats</a>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Boy-Offi9&theme=tokyonight&hide_border=true&background=0d1117" width="98%" />
