@@ -113,7 +113,7 @@ My interests range from full-stack development and automation to Android researc
 ## <a id="stats">GitHub Stats</a>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Boy-Offi9&theme=tokyonight&hide_border=true&background=0d1117" width="98%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Boy-Offi9&theme=tokyonight&hide_border=true&background=0d1117" width="98%"/>
   <img height="180em"
 src="https://github-readme-stats.vercel.app/api?username=Boy-Offi9&show_icons=true&theme=tokyonight&hide_border=true&background=0d1117" width="98%"/>
 <img height="180em"
