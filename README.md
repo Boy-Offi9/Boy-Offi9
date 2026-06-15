@@ -122,7 +122,7 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Boy-Offi9&la
 
 ---
 
-## ⚡ Right Now
+## 🙂 Right Now
 
 - 🛠️ Building things that seemed like good ideas at 2 AM
 - 📱 Exploring Android internals and app behavior
