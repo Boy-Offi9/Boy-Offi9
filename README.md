@@ -1,7 +1,7 @@
 ## Hey there! 👋 I'm Boy Ofii9
 
 <p align="center">
-  <img src="https://github.com/Boy-Offi9.png" width="150" height="150" style="border-radius:50%;" />
+  <img src="https://i.ibb.co/Fq6jbfNX/file-00000000307471fdbc6b1b7d41fd5e5b.png" width="150" height="150" style="border-radius:50%;" />
 </p>
 
   ### I like understanding how things work.
@@ -114,10 +114,6 @@ My interests range from full-stack development and automation to Android researc
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Boy-Offi9&theme=tokyonight&hide_border=true&background=0d1117" width="98%"/>
-  <img height="180em"
-src="https://github-readme-stats.vercel.app/api?username=Boy-Offi9&show_icons=true&theme=tokyonight&hide_border=true&background=0d1117" width="98%"/>
-<img height="180em"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=Boy-Offi9&layout=compact&theme=tokyonight&hide_border=true&background=0d1117" width="98%"/>
 </div>
 
 ---
