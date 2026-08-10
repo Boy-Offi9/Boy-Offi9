@@ -1,15 +1,15 @@
-## Hey there! 👋 I'm Boy Ofii9
+## Hey there! 👋 I'm Boy Offi9
 
 <p align="center">
   <img src="https://i.ibb.co/Fq6jbfNX/file-00000000307471fdbc6b1b7d41fd5e5b.png" width="150" height="150" style="border-radius:50%;" />
 </p>
 
-  ### I like understanding how things work.
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=Full-Stack+Developer;Android+Reverse+Engineer;Automation+Builder;Linux+%26+Termux+Power+User;System+Explorer;Building+One+Project+After+Another)](https://github.com/Boy-Offi9)
   
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=Full-Stack+Developer;Android+Reverse+Engineer;Automation+Builder;Linux+%26+Termux+Power+User;System+Explorer;Building+One+Project+After+Another)](https://github.com/Boy-Offi9)
+
   <p>
     <a href="#about"><strong>About</strong></a> •
+    <a href="#projects"><strong>Projects</strong></a> •
     <a href="#toolbox"><strong>Tech Stack</strong></a> •
     <a href="#stats"><strong>Stats</strong></a> •
   </p>
@@ -33,6 +33,16 @@ My interests range from full-stack development and automation to Android researc
 - System Research
 
 >*Understand. Build. Improve. Repeat.*
+---
+
+## <a id="projects">🚀 Projects</a>
+
+Building out **[boy-offi9-inc](https://github.com/boy-offi9-inc)** — small, focused tools, shipped one at a time.
+
+<!-- PROJECTS:START -->
+_Loading…_
+<!-- PROJECTS:END -->
+
 ---
 
 ## <a id="toolbox"> Tech Stack</a>
@@ -120,10 +130,8 @@ My interests range from full-stack development and automation to Android researc
 
 ## 🙂 Right Now
 
-- 🛠️ Building things that seemed like good ideas at 2 AM
+- 🔌 Building out the **boy-offi9-inc** toolkit — one small, useful project at a time
 - 📱 Exploring Android internals and app behavior
-- 🤖 Automating repetitive tasks so I don't have to do them twice
-- 🌐 Experimenting with web technologies and backend systems
 - 🐧 Living somewhere between Linux and Termux
 - 📚 Learning something new every day
 - 💬 Ask me about development, automation, Android, or system research
