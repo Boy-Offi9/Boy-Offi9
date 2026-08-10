@@ -40,7 +40,10 @@ My interests range from full-stack development and automation to Android researc
 Building out **[boy-offi9-inc](https://github.com/boy-offi9-inc)** — small, focused tools, shipped one at a time.
 
 <!-- PROJECTS:START -->
-_Loading…_
+| Project | Description | Language | Stars |
+|---|---|---|---|
+| [apk-unravel](https://github.com/boy-offi9-inc/apk-unravel) | A CLI that wraps apktool + jadx into a single decompile pipeline | JavaScript | ⭐ 0 |
+| [btch-downloader-api](https://github.com/boy-offi9-inc/btch-downloader-api) | No-auth REST API wrapping btch-downloader — 16 platform endpoints (TikTok, Instagram, YouTube, Spotify, and more) behind a config-driven platform registry. | HTML | ⭐ 2 |
 <!-- PROJECTS:END -->
 
 ---
