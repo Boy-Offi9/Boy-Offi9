@@ -42,8 +42,8 @@ Building out **[boy-offi9-inc](https://github.com/boy-offi9-inc)** — small, fo
 <!-- PROJECTS:START -->
 | Project | Description | Language | Stars |
 |---|---|---|---|
-| [btch-downloader-api](https://github.com/boy-offi9-inc/btch-downloader-api) | No-auth REST API wrapping btch-downloader — 16 platform endpoints (TikTok, Instagram, YouTube, Spotify, and more) behind a config-driven platform registry. | HTML | ⭐ 3 |
 | [reqkit](https://github.com/boy-offi9-inc/reqkit) | Small, composable HTTP helper functions — retry with backoff, timeouts, normalized errors, safe JSON parsing, rate-limit-aware retry, and download progress. Not a client, works alongside fetch/axios/anything. | JavaScript | ⭐ 3 |
+| [btch-downloader-api](https://github.com/boy-offi9-inc/btch-downloader-api) | No-auth REST API wrapping btch-downloader — 16 platform endpoints (TikTok, Instagram, YouTube, Spotify, and more) behind a config-driven platform registry. | HTML | ⭐ 3 |
 | [apk-unravel](https://github.com/boy-offi9-inc/apk-unravel) | A CLI that wraps apktool + jadx into a single decompile pipeline | JavaScript | ⭐ 2 |
 | [.github](https://github.com/boy-offi9-inc/.github) | Welcome | — | ⭐ 0 |
 <!-- PROJECTS:END -->
