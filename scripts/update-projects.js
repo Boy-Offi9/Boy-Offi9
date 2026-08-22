@@ -10,8 +10,8 @@ const README_PATH = path.join(__dirname, '..', 'README.md');
 const START_MARKER = '<!-- PROJECTS:START -->';
 const END_MARKER = '<!-- PROJECTS:END -->';
 
-// Repos to ignore (special repos like .github, template repos, etc)
-const IGNORED_REPOS = ['.github', '.gitignore', 'template', 'profile'];
+// Repos to ignore (special repos like .github, template repos, profile repos, etc)
+const IGNORED_REPOS = ['.github', '.gitignore', 'template', 'profile', 'boy-offi9', 'readme-profile'];
 
 async function fetchOrgRepos(org) {
     const headers = {
