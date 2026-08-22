@@ -9,6 +9,9 @@ const README_PATH = path.join(__dirname, '..', 'README.md');
 const START_MARKER = '<!-- PROJECTS:START -->';
 const END_MARKER = '<!-- PROJECTS:END -->';
 
+// Repos to ignore (special repos like .github, template repos, etc)
+const IGNORED_REPOS = ['.github', '.gitignore', 'template', 'profile'];
+
 async function fetchOrgRepos(org) {
     const headers = {
         Accept: 'application/vnd.github+json'
@@ -29,15 +32,22 @@ async function fetchOrgRepos(org) {
     return res.json();
 }
 
+function isIgnoredRepo(repoName) {
+    return IGNORED_REPOS.includes(repoName.toLowerCase()) || 
+           repoName.toLowerCase().startsWith('.github');
+}
+
 function buildTable(repos) {
-    const visible = repos.filter((r) => !r.archived && !r.fork);
+    // Filter: exclude archived repos, forked repos, and ignored special repos
+    const visible = repos.filter((r) => !r.archived && !r.fork && !isIgnoredRepo(r.name));
 
     if (visible.length === 0) {
         return '_No public projects yet — check back soon._';
     }
 
     const rows = visible.map((r) => {
-        const name = `[${r.name}](${r.html_url})`;
+        const badge = r.fork ? '🔀' : '✨'; // Fork indicator vs original
+        const name = `${badge} [${r.name}](${r.html_url})`;
         const description = r.description ? r.description.replace(/\|/g, '\\|') : '—';
         const language = r.language || '—';
         const stars = r.stargazers_count ?? 0;
@@ -72,7 +82,17 @@ async function main() {
     const repos = await fetchOrgRepos(ORG);
     const table = buildTable(repos);
     injectIntoReadme(table);
-    console.log(`Updated README.md with ${repos.length} repo(s) from ${ORG}.`);
+    
+    const totalRepos = repos.length;
+    const ignoredCount = repos.filter(r => isIgnoredRepo(r.name)).length;
+    const forkedCount = repos.filter(r => r.fork).length;
+    const displayedCount = repos.filter(r => !r.archived && !r.fork && !isIgnoredRepo(r.name)).length;
+    
+    console.log(`✅ Updated README.md`);
+    console.log(`   Total repos: ${totalRepos}`);
+    console.log(`   Ignored (special): ${ignoredCount}`);
+    console.log(`   Forked: ${forkedCount}`);
+    console.log(`   Displayed: ${displayedCount}`);
 }
 
 main().catch((err) => {
