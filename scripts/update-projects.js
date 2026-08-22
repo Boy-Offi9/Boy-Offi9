@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ORG = 'boy-offi9-inc';
+const USER = 'Boy-Offi9';
 const README_PATH = path.join(__dirname, '..', 'README.md');
 const START_MARKER = '<!-- PROJECTS:START -->';
 const END_MARKER = '<!-- PROJECTS:END -->';
@@ -32,6 +33,26 @@ async function fetchOrgRepos(org) {
     return res.json();
 }
 
+async function fetchUserRepos(user) {
+    const headers = {
+        Accept: 'application/vnd.github+json'
+    };
+
+    if (process.env.GITHUB_TOKEN) {
+        headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+    }
+
+    const res = await fetch(`https://api.github.com/users/${user}/repos?type=public&sort=updated&per_page=100`, {
+        headers,
+    });
+
+    if (!res.ok) {
+        throw new Error(`GitHub API request failed: ${res.status} ${res.statusText}`);
+    }
+
+    return res.json();
+}
+
 function isIgnoredRepo(repoName) {
     return IGNORED_REPOS.includes(repoName.toLowerCase()) || 
            repoName.toLowerCase().startsWith('.github');
@@ -46,8 +67,7 @@ function buildTable(repos) {
     }
 
     const rows = visible.map((r) => {
-        const badge = r.fork ? '🔀' : '✨'; // Fork indicator vs original
-        const name = `${badge} [${r.name}](${r.html_url})`;
+        const name = `[${r.name}](${r.html_url})`;
         const description = r.description ? r.description.replace(/\|/g, '\\|') : '—';
         const language = r.language || '—';
         const stars = r.stargazers_count ?? 0;
@@ -79,20 +99,23 @@ function injectIntoReadme(table) {
 }
 
 async function main() {
-    const repos = await fetchOrgRepos(ORG);
-    const table = buildTable(repos);
+    // Fetch org repos
+    const orgRepos = await fetchOrgRepos(ORG);
+    
+    // Fetch user profile repos
+    const userRepos = await fetchUserRepos(USER);
+    
+    // Combine and deduplicate repos
+    const allRepos = [...orgRepos, ...userRepos];
+    const uniqueRepos = Array.from(new Map(allRepos.map(r => [r.id, r])).values());
+    
+    // Build and inject table
+    const table = buildTable(uniqueRepos);
     injectIntoReadme(table);
     
-    const totalRepos = repos.length;
-    const ignoredCount = repos.filter(r => isIgnoredRepo(r.name)).length;
-    const forkedCount = repos.filter(r => r.fork).length;
-    const displayedCount = repos.filter(r => !r.archived && !r.fork && !isIgnoredRepo(r.name)).length;
+    const displayedCount = uniqueRepos.filter(r => !r.archived && !r.fork && !isIgnoredRepo(r.name)).length;
     
-    console.log(`✅ Updated README.md`);
-    console.log(`   Total repos: ${totalRepos}`);
-    console.log(`   Ignored (special): ${ignoredCount}`);
-    console.log(`   Forked: ${forkedCount}`);
-    console.log(`   Displayed: ${displayedCount}`);
+    console.log(`Updated README.md with ${displayedCount} project(s) from ${ORG} org and ${USER} profile.`);
 }
 
 main().catch((err) => {
