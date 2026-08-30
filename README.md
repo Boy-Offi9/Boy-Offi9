@@ -42,9 +42,9 @@ Building out **[boy-offi9-inc](https://github.com/boy-offi9-inc)** — small, fo
 <!-- PROJECTS:START -->
 | Project | Description | Language | Stars |
 |---|---|---|---|
+| [btch-downloader-api](https://github.com/boy-offi9-inc/btch-downloader-api) | No-auth REST API wrapping btch-downloader — 16 platform endpoints (TikTok, Instagram, YouTube, Spotify, and more) behind a config-driven platform registry. | HTML | ⭐ 4 |
 | [apk-unravel](https://github.com/boy-offi9-inc/apk-unravel) | A CLI that wraps apktool + jadx into a single decompile pipeline | JavaScript | ⭐ 3 |
 | [reqkit](https://github.com/boy-offi9-inc/reqkit) | Small, composable HTTP helper functions — retry with backoff, timeouts, normalized errors, safe JSON parsing, rate-limit-aware retry, and download progress. Not a client, works alongside fetch/axios/anything. | JavaScript | ⭐ 4 |
-| [btch-downloader-api](https://github.com/boy-offi9-inc/btch-downloader-api) | No-auth REST API wrapping btch-downloader — 16 platform endpoints (TikTok, Instagram, YouTube, Spotify, and more) behind a config-driven platform registry. | HTML | ⭐ 4 |
 | [isomorphic-unzip](https://github.com/boy-offi9-inc/isomorphic-unzip) | Maintained drop-in replacement for the abandoned isomorphic-unzip — same API (getBuffer, string/RegExp/function matching), powered internally by fflate instead of a yauzl+zip.js split that never actually reached parity between Node and browser. | JavaScript | ⭐ 3 |
 | [portfolio-template](https://github.com/Boy-Offi9/portfolio-template) |  forkable, editorial-style portfolio template — one config file (site.js), Vite + React + Tailwind, no CMS or backend required. | JavaScript | ⭐ 4 |
 <!-- PROJECTS:END -->
