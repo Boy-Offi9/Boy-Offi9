@@ -49,7 +49,7 @@ Building out **[boy-offi9-inc](https://github.com/boy-offi9-inc)** — small, fo
 | [btch-downloader-api](https://github.com/boy-offi9-inc/btch-downloader-api) | No-auth REST API wrapping btch-downloader — 16 platform endpoints (TikTok, Instagram, YouTube, Spotify, and more) behind a config-driven platform registry. | JavaScript | ⭐ 5 |
 | [apk-unravel](https://github.com/boy-offi9-inc/apk-unravel) | A CLI that wraps apktool + jadx into a single decompile pipeline | JavaScript | ⭐ 3 |
 | [reqkit](https://github.com/boy-offi9-inc/reqkit) | Small, composable HTTP helper functions — retry with backoff, timeouts, normalized errors, safe JSON parsing, rate-limit-aware retry, and download progress. Not a client, works alongside fetch/axios/anything. | JavaScript | ⭐ 4 |
-| [Contributor-Codex](https://github.com/Boy-Offi9/Contributor-Codex) | Turn GitHub data into customizable visual cards for profiles, contributors, repositories, and organizations. | HTML | ⭐ 0 |
+| [Contributor-Codex](https://github.com/Boy-Offi9/Contributor-Codex) | Turn GitHub data into customizable visual cards for profiles, contributors, repositories, and organizations. | JavaScript | ⭐ 0 |
 | [portfolio-template](https://github.com/Boy-Offi9/portfolio-template) |  forkable, editorial-style portfolio template — one config file (site.js), Vite + React + Tailwind, no CMS or backend required. | JavaScript | ⭐ 5 |
 <!-- PROJECTS:END -->
 
