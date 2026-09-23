@@ -4,166 +4,67 @@
   <img src="https://i.ibb.co/Fq6jbfNX/file-00000000307471fdbc6b1b7d41fd5e5b.png" width="150" height="150" style="border-radius:50%;" />
 </p>
 
-  
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=Full-Stack+Developer;Android+Reverse+Engineer;Automation+Builder;Linux+%26+Termux+Power+User;System+Explorer;Building+One+Project+After+Another)](https://github.com/Boy-Offi9)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=Self-taught+Developer+%E2%80%A2+Builder+%E2%80%A2+Reverse+Engineer;Building+software+and+figuring+out+how+things+work;Exploring+systems%2C+tools%2C+and+weird+ideas;Somewhere+between+an+idea+and+a+commit)](https://github.com/Boy-Offi9)
 
-  <p>
-    <a href="#about"><strong>About</strong></a> •
-    <a href="#projects"><strong>Projects</strong></a> •
-    <a href="#toolbox"><strong>Tech Stack</strong></a> •
-    <a href="#stats"><strong>Stats</strong></a> •
-  </p>
-</div>
+<p align="center">
+  <a href="#about"><strong>About</strong></a> •
+  <a href="#projects"><strong>Projects</strong></a> •
+  <a href="#always-curious"><strong>Curiosity</strong></a> •
+  <a href="#right-now"><strong>Now</strong></a>
+</p>
 
 ---
 
 ## 🎯 About Me
 
-I enjoy building things, breaking things, and figuring out how they work.
+I build software, explore systems, and figure out how things work.
 
-My interests range from full-stack development and automation to Android research and system exploration. Whether it's a web application, a backend service, or a tool to simplify a workflow, I like creating software that is useful, efficient, and built to last.
+My work jumps between full-stack development, backend APIs, Android, automation, Linux, reverse engineering, and whatever else happens to catch my curiosity.
 
-**Interests:**
+I learn mostly by building — then breaking things, fixing them, and learning from the process.
 
-- Full-Stack Development
-- Android & Mobile Systems
-- Automation & Tooling
-- Linux & Infrastructure
-- Reverse Engineering
-- System Research
+> **Understand → Build → Break → Improve → Repeat**
 
->*Understand. Build. Improve. Repeat.*
 ---
 
-## <a id="projects">🚀 Projects</a>
+## 🚀 Projects
 
-Building out **[boy-offi9-inc](https://github.com/boy-offi9-inc)** — small, focused tools, shipped one at a time.
+Things I’m building, maintaining, and experimenting with — across my personal repositories and **[Boy Offi9 Inc.](https://github.com/boy-offi9-inc)**.
 
 <!-- PROJECTS:START -->
-| Project | Description | Language | Stars |
-|---|---|---|---|
-| [hexforge-gateway](https://github.com/boy-offi9-inc/hexforge-gateway) | Self-hosted reverse-engineering workspace API — orchestrates jadx/apktool/adb/frida/APKiD via a job & workflow engine, exposed as native MCP tools for Claude. No cloud required. | TypeScript | ⭐ 3 |
-| [btch-downloader-api](https://github.com/boy-offi9-inc/btch-downloader-api) | No-auth REST API wrapping btch-downloader — 16 platform endpoints (TikTok, Instagram, YouTube, Spotify, and more) behind a config-driven platform registry. | JavaScript | ⭐ 6 |
-| [matrix-rain-demo](https://github.com/boy-offi9-inc/matrix-rain-demo) | Working example of matrix-rain-view in a real Android layout. | Kotlin | ⭐ 2 |
-| [matrix-rain-view](https://github.com/boy-offi9-inc/matrix-rain-view) | Configurable "Matrix digital rain" effect as a real, drop-in Android View — delta-time animation, glow, custom glyph sets, proper lifecycle. No toy demo. | Kotlin | ⭐ 4 |
-| [isomorphic-unzip](https://github.com/boy-offi9-inc/isomorphic-unzip) | Maintained drop-in replacement for the abandoned isomorphic-unzip — same API (getBuffer, string/RegExp/function matching), powered internally by fflate instead of a yauzl+zip.js split that never actually reached parity between Node and browser. | JavaScript | ⭐ 2 |
-| [apk-unravel](https://github.com/boy-offi9-inc/apk-unravel) | A CLI that wraps apktool + jadx into a single decompile pipeline | JavaScript | ⭐ 3 |
-| [reqkit](https://github.com/boy-offi9-inc/reqkit) | Small, composable HTTP helper functions — retry with backoff, timeouts, normalized errors, safe JSON parsing, rate-limit-aware retry, and download progress. Not a client, works alongside fetch/axios/anything. | JavaScript | ⭐ 4 |
-| [Contributor-Codex](https://github.com/Boy-Offi9/Contributor-Codex) | Turn GitHub data into customizable visual cards for profiles, contributors, repositories, and organizations. | JavaScript | ⭐ 3 |
-| [portfolio-template](https://github.com/Boy-Offi9/portfolio-template) |  forkable, editorial-style portfolio template — one config file (site.js), Vite + React + Tailwind, no CMS or backend required. | JavaScript | ⭐ 5 |
+| Project | Description | Language |
+|---|---|---|
 <!-- PROJECTS:END -->
 
 ---
 
-## <a id="toolbox"> Tech Stack</a>
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,js,ts,nodejs,python,go,kotlin,java,mysql,postgres,docker,cloudflare,git,github,linux,vscode,androidstudio" alt="Tech Stack"/>
-</div>
+## 🧠 Always Curious
 
-### [ CORE ]
-```
-├─ Problem Solving
-├─ Reverse Engineering
-├─ System Research
-└─ Continuous Learning
-```
+I don't really have a fixed tech stack.
 
-### [ DEVELOPMENT ]
-```
-├─ Frontend
-│  ├─ HTML
-│  ├─ CSS
-│  ├─ JavaScript
-│  ├─ TypeScript
-│  ├─ React
-│  └─ Next.js
-│
-└─ Backend
-   ├─ Node.js
-   ├─ Express.js
-   ├─ REST APIs
-   ├─ Authentication
-   ├─ MySQL
-   └─ PostgreSQL
-```
+I'm curious about too many things — languages, frameworks, systems, tools, and whatever else looks interesting enough to break and rebuild. 😄
 
-### [ MOBILE ]
-```
-├─ Android Development
-├─ Kotlin
-├─ Java
-├─ Android Studio
-├─ APK Analysis
-└─ ROM Customization
-```
-
-### [ AUTOMATION ]
-```
-├─ Python
-├─ Go
-├─ Discord Bots
-├─ Telegram Bots
-├─ Whatsapp Bots
-├─ Web Scraping
-├─ API Integration
-└─ Workflow Automation
-```
-
-### [ SYSTEMS ]
-```
-├─ Linux
-├─ Termux
-├─ Shell Scripting
-├─ Git
-├─ GitHub
-├─ Docker
-└─ VPS Management
-```
-
-### [ EXPLORING ]
-```
-├─ Cloud Infrastructure
-├─ Performance Engineering
-├─ Platform Architecture
-└─ Scalable Systems
-```
----
-
-
-## <a id="stats">GitHub Stats</a>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Boy-Offi9&theme=tokyonight&hide_border=true&background=0d1117" width="98%"/>
-</div>
+The stack changes. **The curiosity doesn't.**
 
 ---
 
-## 🙂 Right Now
+## 🔬 Right Now
 
-- 🔌 Building out the **boy-offi9-inc** toolkit — one small, useful project at a time
-- 📱 Exploring Android internals and app behavior
-- 🐧 Living somewhere between Linux and Termux
-- 📚 Learning something new every day
-- 💬 Ask me about development, automation, Android, or system research
-- 📫 Reach out via [GitHub](https://github.com/Boy-Offi9)
-
----
-
-## 🧠 Philosophy
-
-```
-→ Curiosity creates opportunities
-→ Understanding comes before optimization
-→ Build first, improve continuously
-→ Automation beats repetition
-→ Every system has a story underneath
-→ Learn publicly, build relentlessly
-→ Public repos share knowledge; private repos hold stories
-```
+- 🧩 Building practical tools and experiments
+- 📱 Exploring Android and mobile systems
+- 🐧 Spending too much time around Linux and Termux
+- 🔍 Learning by reverse engineering things I don't understand yet
+- 🧪 Turning random ideas into working software
 
 ---
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Status-Always%20Learning-brightgreen?style=flat-square&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/Focus-Building%20Solutions-blue?style=flat-square&labelColor=0d1117" />
-</div>
+## ⚡ Philosophy
+
+```text
+Build first.
+Learn by doing.
+Improve continuously.
+```
+```md
+Public repos share knowledge.
+Private repos hold stories.```
