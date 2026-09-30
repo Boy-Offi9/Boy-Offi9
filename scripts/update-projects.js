@@ -70,13 +70,12 @@ function buildTable(repos) {
         const name = `[${r.name}](${r.html_url})`;
         const description = r.description ? r.description.replace(/\|/g, '\\|') : '—';
         const language = r.language || '—';
-        const stars = r.stargazers_count ?? 0;
-        return `| ${name} | ${description} | ${language} | ⭐ ${stars} |`;
+        return `| ${name} | ${description} | ${language} |`;
     });
 
     return [
-        '| Project | Description | Language | Stars |',
-        '|---|---|---|---|',
+        '| Project | Description | Language |',
+        '|---|---|---|',
         ...rows,
     ].join('\n');
 }
