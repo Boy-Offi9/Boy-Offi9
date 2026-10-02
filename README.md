@@ -10,8 +10,7 @@
   <a href="#about"><strong>About</strong></a> •
   <a href="#projects"><strong>Projects</strong></a> •
   <a href="#stack"><strong>Stack</strong></a> •
-  <a href="#now"><strong>Now</strong></a> •
-  <a href="#connect"><strong>Connect</strong></a>
+  <a href="#now"><strong>Now</strong></a>
 </p>
 
 ---
