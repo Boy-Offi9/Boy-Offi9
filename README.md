@@ -32,9 +32,9 @@ Things I’m building, maintaining, and experimenting with across my personal re
 <!-- PROJECTS:START -->
 | Project | Description | Language |
 |---|---|---|
+| [hexforge-gateway](https://github.com/boy-offi9-inc/hexforge-gateway) | Self-hosted reverse-engineering workspace API — orchestrates jadx/apktool/adb/frida/APKiD via a job & workflow engine, exposed as native MCP tools for Claude. No cloud required. | TypeScript |
 | [apk-unravel](https://github.com/boy-offi9-inc/apk-unravel) | A CLI that wraps apktool + jadx into a single decompile pipeline | JavaScript |
 | [Tidepull](https://github.com/boy-offi9-inc/Tidepull) | A minimal, from-scratch media downloader library: extractor plugins, yt-dlp-style format selection, resumable downloads. | TypeScript |
-| [hexforge-gateway](https://github.com/boy-offi9-inc/hexforge-gateway) | Self-hosted reverse-engineering workspace API — orchestrates jadx/apktool/adb/frida/APKiD via a job & workflow engine, exposed as native MCP tools for Claude. No cloud required. | TypeScript |
 | [playfold](https://github.com/boy-offi9-inc/playfold) | Tiny, framework-agnostic SDK for embedding media players in an iframe and controlling them through a typed, promise-based API. | TypeScript |
 | [isomorphic-unzip](https://github.com/boy-offi9-inc/isomorphic-unzip) | Maintained drop-in replacement for the abandoned isomorphic-unzip — same API (getBuffer, string/RegExp/function matching), powered internally by fflate instead of a yauzl+zip.js split that never actually reached parity between Node and browser. | JavaScript |
 | [reqkit](https://github.com/boy-offi9-inc/reqkit) | Small, composable HTTP helper functions — retry with backoff, timeouts, normalized errors, safe JSON parsing, rate-limit-aware retry, and download progress. Not a client, works alongside fetch/axios/anything. | JavaScript |
