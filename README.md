@@ -32,17 +32,17 @@ Things I’m building, maintaining, and experimenting with across my personal re
 <!-- PROJECTS:START -->
 | Project | Description | Language |
 |---|---|---|
+| [Tidepull](https://github.com/boy-offi9-inc/Tidepull) | A minimal, from-scratch media downloader library: extractor plugins, yt-dlp-style format selection, resumable downloads. | TypeScript |
 | [hexforge-gateway](https://github.com/boy-offi9-inc/hexforge-gateway) | Self-hosted reverse-engineering workspace API — orchestrates jadx/apktool/adb/frida/APKiD via a job & workflow engine, exposed as native MCP tools for Claude. No cloud required. | TypeScript |
 | [apk-unravel](https://github.com/boy-offi9-inc/apk-unravel) | A CLI that wraps apktool + jadx into a single decompile pipeline | JavaScript |
-| [Tidepull](https://github.com/boy-offi9-inc/Tidepull) | A minimal, from-scratch media downloader library: extractor plugins, yt-dlp-style format selection, resumable downloads. | TypeScript |
 | [playfold](https://github.com/boy-offi9-inc/playfold) | Tiny, framework-agnostic SDK for embedding media players in an iframe and controlling them through a typed, promise-based API. | TypeScript |
 | [isomorphic-unzip](https://github.com/boy-offi9-inc/isomorphic-unzip) | Maintained drop-in replacement for the abandoned isomorphic-unzip — same API (getBuffer, string/RegExp/function matching), powered internally by fflate instead of a yauzl+zip.js split that never actually reached parity between Node and browser. | JavaScript |
 | [reqkit](https://github.com/boy-offi9-inc/reqkit) | Small, composable HTTP helper functions — retry with backoff, timeouts, normalized errors, safe JSON parsing, rate-limit-aware retry, and download progress. Not a client, works alongside fetch/axios/anything. | JavaScript |
 | [matrix-rain-view](https://github.com/boy-offi9-inc/matrix-rain-view) | Configurable "Matrix digital rain" effect as a real, drop-in Android View — delta-time animation, glow, custom glyph sets, proper lifecycle. No toy demo. | Kotlin |
 | [btch-downloader-api](https://github.com/boy-offi9-inc/btch-downloader-api) | No-auth REST API wrapping btch-downloader — 16 platform endpoints (TikTok, Instagram, YouTube, Spotify, and more) behind a config-driven platform registry. | JavaScript |
 | [matrix-rain-demo](https://github.com/boy-offi9-inc/matrix-rain-demo) | Working example of matrix-rain-view in a real Android layout. | Kotlin |
-| [walkable-portfolio](https://github.com/Boy-Offi9/walkable-portfolio) | A first-person, walkable 3D portfolio built with three.js and Vite. Day and night cycle, live weather, generated music, and one config file for all content. | JavaScript |
 | [Contributor-Codex](https://github.com/Boy-Offi9/Contributor-Codex) | Turn GitHub data into customizable visual cards for profiles, contributors, repositories, and organizations. | JavaScript |
+| [walkable-portfolio](https://github.com/Boy-Offi9/walkable-portfolio) | A first-person, walkable 3D portfolio built with three.js and Vite. Day and night cycle, live weather, generated music, and one config file for all content. | JavaScript |
 | [portfolio-template](https://github.com/Boy-Offi9/portfolio-template) |  forkable, editorial-style portfolio template — one config file (site.js), Vite + React + Tailwind, no CMS or backend required. | JavaScript |
 <!-- PROJECTS:END -->
 
