@@ -32,11 +32,11 @@ Things I’m building, maintaining, and experimenting with across my personal re
 <!-- PROJECTS:START -->
 | Project | Description | Language |
 |---|---|---|
-| [btch-downloader-api](https://github.com/boy-offi9-inc/btch-downloader-api) | No-auth REST API wrapping btch-downloader — 16 platform endpoints (TikTok, Instagram, YouTube, Spotify, and more) behind a config-driven platform registry. | JavaScript |
 | [reqkit](https://github.com/boy-offi9-inc/reqkit) | Small, composable HTTP helpers — retry with backoff and Retry-After, timeouts, normalized errors, rate limiter, circuit breaker, response cache, resumable downloads, SSE/NDJSON streams, mock fetch, and an opt-in createFetch. Not a client; works alongside fetch/axios/anything. | JavaScript |
 | [hexforge-gateway](https://github.com/boy-offi9-inc/hexforge-gateway) | Self-hosted reverse-engineering workspace API — orchestrates jadx/apktool/adb/frida/APKiD via a job & workflow engine, exposed as native MCP tools for Claude. No cloud required. | TypeScript |
-| [scifi-kit-demo](https://github.com/boy-offi9-inc/scifi-kit-demo) | Demo app for SciFiKit, a library of sci-fi HUD components for Android drawn on Canvas. | Kotlin |
 | [scifi-ui-kit](https://github.com/boy-offi9-inc/scifi-ui-kit) | Sci-fi UI for Android: chamfered HUD panels and glitch text, drawn on Canvas with no GIFs or Lottie. Works in XML Views and Jetpack Compose. | Kotlin |
+| [scifi-kit-demo](https://github.com/boy-offi9-inc/scifi-kit-demo) | Demo app for SciFiKit, a library of sci-fi HUD components for Android drawn on Canvas. | Kotlin |
+| [btch-downloader-api](https://github.com/boy-offi9-inc/btch-downloader-api) | No-auth REST API wrapping btch-downloader — 16 platform endpoints (TikTok, Instagram, YouTube, Spotify, and more) behind a config-driven platform registry. | JavaScript |
 | [Tidepull](https://github.com/boy-offi9-inc/Tidepull) | A minimal, from-scratch media downloader library: extractor plugins, yt-dlp-style format selection, resumable downloads. | TypeScript |
 | [matrix-rain-view](https://github.com/boy-offi9-inc/matrix-rain-view) | Configurable "Matrix digital rain" effect as a real, drop-in Android View — delta-time animation, glow, custom glyph sets, proper lifecycle. No toy demo. | Kotlin |
 | [Playfold](https://github.com/boy-offi9-inc/Playfold) | Tiny, framework-agnostic SDK for embedding media players in an iframe and controlling them through a typed, promise-based API. Includes server-side link-preview helpers (Open Graph, Twitter, oEmbed) and a crawler checker. | TypeScript |
