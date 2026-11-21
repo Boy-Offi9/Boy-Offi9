@@ -32,8 +32,9 @@ Things I’m building, maintaining, and experimenting with across my personal re
 <!-- PROJECTS:START -->
 | Project | Description | Language |
 |---|---|---|
-| [tidepull-plugins](https://github.com/boy-offi9-inc/tidepull-plugins) | Official plugins and authoring helpers for Tidepull - the plugins monorepo. | TypeScript |
+| [http-resilience](https://github.com/boy-offi9-inc/http-resilience) | Conformance matrix fork: adds reqkit adapter (11/11 scenarios). Upstream: fetch-kit/http-resilience | — |
 | [Tidepull](https://github.com/boy-offi9-inc/Tidepull) | A minimal, from-scratch media downloader library: extractor plugins, yt-dlp-style format selection, resumable downloads. | TypeScript |
+| [tidepull-plugins](https://github.com/boy-offi9-inc/tidepull-plugins) | Official plugins and authoring helpers for Tidepull - the plugins monorepo. | TypeScript |
 | [hexforge-gateway](https://github.com/boy-offi9-inc/hexforge-gateway) | Self-hosted reverse-engineering workspace API — orchestrates jadx/apktool/adb/frida/APKiD via a job & workflow engine, exposed as native MCP tools for Claude. No cloud required. | TypeScript |
 | [btch-downloader-api](https://github.com/boy-offi9-inc/btch-downloader-api) | No-auth REST API wrapping btch-downloader — 16 platform endpoints (TikTok, Instagram, YouTube, Spotify, and more) behind a config-driven platform registry. | JavaScript |
 | [mexaroot](https://github.com/boy-offi9-inc/mexaroot) | One authenticated daemon linking Termux, proot distros and your PC — remote exec, interactive shells, file transfer, keep-alive. Go. | Go |
@@ -45,8 +46,9 @@ Things I’m building, maintaining, and experimenting with across my personal re
 | [scifi-kit-demo](https://github.com/boy-offi9-inc/scifi-kit-demo) | Demo app for SciFiKit, a library of sci-fi HUD components for Android drawn on Canvas. | Kotlin |
 | [matrix-rain-demo](https://github.com/boy-offi9-inc/matrix-rain-demo) | Working example of matrix-rain-view in a real Android layout. | Kotlin |
 | [isomorphic-unzip](https://github.com/boy-offi9-inc/isomorphic-unzip) | Maintained drop-in replacement for the abandoned isomorphic-unzip — same API (getBuffer, string/RegExp/function matching), powered internally by fflate instead of a yauzl+zip.js split that never actually reached parity between Node and browser. | JavaScript |
-| [portfolio-template](https://github.com/Boy-Offi9/portfolio-template) |  forkable, editorial-style portfolio template — one config file (site.js), Vite + React + Tailwind, no CMS or backend required. | JavaScript |
 | [walkable-portfolio](https://github.com/Boy-Offi9/walkable-portfolio) | A first-person, walkable 3D portfolio built with three.js and Vite. Day and night cycle, live weather, generated music, and one config file for all content. | JavaScript |
+| [http-resilience](https://github.com/Boy-Offi9/http-resilience) | Conformance matrix fork: adds reqkit adapter (11/11 scenarios). Upstream: fetch-kit/http-resilience | — |
+| [portfolio-template](https://github.com/Boy-Offi9/portfolio-template) |  forkable, editorial-style portfolio template — one config file (site.js), Vite + React + Tailwind, no CMS or backend required. | JavaScript |
 | [Contributor-Codex](https://github.com/Boy-Offi9/Contributor-Codex) | Turn GitHub data into customizable visual cards for profiles, contributors, repositories, and organizations. | JavaScript |
 <!-- PROJECTS:END -->
 
