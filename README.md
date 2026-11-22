@@ -19,15 +19,24 @@
 
 I build software, explore systems, and turn ideas into working tools.
 
+<details>
+<summary>How I work</summary>
+
 My work moves between full-stack development, backend APIs, Android, automation, Linux, reverse engineering, and whatever else is interesting enough to learn from. I prefer learning by making, breaking, fixing, and refining the process as I go.
 
 > Understand → Build → Break → Improve → Repeat
+
+</details>
 
 ---
 
 ## 🚀 Projects
 
 Things I’m building, maintaining, and experimenting with across my personal repos and the [Boy Offi9 Inc.](https://github.com/boy-offi9-inc) organization.
+
+<details>
+<summary>Full project index</summary>
+<br>
 
 <!-- PROJECTS:START -->
 | Project | Description | Language |
@@ -50,9 +59,15 @@ Things I’m building, maintaining, and experimenting with across my personal re
 | [Contributor-Codex](https://github.com/Boy-Offi9/Contributor-Codex) | Turn GitHub data into customizable visual cards for profiles, contributors, repositories, and organizations. | JavaScript |
 <!-- PROJECTS:END -->
 
+</details>
+
 ---
 
 ## 🧠 Stack
+
+<details>
+<summary>What I reach for</summary>
+<br>
 
 I don’t really believe in a fixed tech stack — I like the right tool for the job.
 
@@ -67,15 +82,23 @@ I don’t really believe in a fixed tech stack — I like the right tool for the
   <img src="https://img.shields.io/badge/Terminal-4EAA25?style=for-the-badge&logo=gnome-terminal&logoColor=white" />
 </p>
 
+</details>
+
 ---
 
 ## 🔬 Right now
+
+<details>
+<summary>Open the log</summary>
+<br>
 
 - 🧩 Building practical tools and experiments
 - 📱 Exploring Android and mobile systems
 - 🐧 Spending too much time around Linux and Termux
 - 🔍 Learning by reverse engineering things I don’t understand yet
 - 🧪 Turning random ideas into working software
+
+</details>
 
 ---
 
@@ -84,7 +107,9 @@ I don’t really believe in a fixed tech stack — I like the right tool for the
 ```text
 Build first. Learn by doing. Improve continuously.
 ```
+
 ---
+
 ```md
 > Public repos share knowledge. Private repos hold stories.
 ```
