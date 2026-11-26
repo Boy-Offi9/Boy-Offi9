@@ -41,8 +41,8 @@ Things I’m building, maintaining, and experimenting with across my personal re
 <!-- PROJECTS:START -->
 | Project | Description | Language |
 |---|---|---|
-| [mexaroot](https://github.com/boy-offi9-inc/mexaroot) | One authenticated daemon linking Termux, proot distros and your PC — remote exec, interactive shells, file transfer, keep-alive. Go. | Go |
 | [scifi-ui-kit](https://github.com/boy-offi9-inc/scifi-ui-kit) | Sci-fi UI for Android: chamfered HUD panels and glitch text, drawn on Canvas with no GIFs or Lottie. Works in XML Views and Jetpack Compose. | Kotlin |
+| [mexaroot](https://github.com/boy-offi9-inc/mexaroot) | One authenticated daemon linking Termux, proot distros and your PC — remote exec, interactive shells, file transfer, keep-alive. Go. | Go |
 | [scifi-kit-demo](https://github.com/boy-offi9-inc/scifi-kit-demo) | Demo app for SciFiKit, a library of sci-fi HUD components for Android drawn on Canvas. | Kotlin |
 | [matrix-rain-demo](https://github.com/boy-offi9-inc/matrix-rain-demo) | Working example of matrix-rain-view in a real Android layout. | Kotlin |
 | [isomorphic-unzip](https://github.com/boy-offi9-inc/isomorphic-unzip) | Maintained drop-in replacement for the abandoned isomorphic-unzip — same API (getBuffer, string/RegExp/function matching), powered internally by fflate instead of a yauzl+zip.js split that never actually reached parity between Node and browser. | JavaScript |
